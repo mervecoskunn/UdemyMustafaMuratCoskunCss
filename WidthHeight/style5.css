@@ -1,0 +1,32 @@
+#box-1{
+    width: 100px;
+    height: 100px;
+    background: red;
+
+}
+#box-2{
+    width: 100px;
+    height: 100px;
+    background: yellow;
+
+}
+#box-3{
+    width: 100px;
+    height: 100px;
+    background: green;
+
+}
+#box1-1{
+    width: 50%;
+    height: 50%;
+    background:pink;
+    padding-bottom: 5px;
+    
+}
+#box2-1{
+    width: 70%;
+    height: 70%;
+    background:rgb(234, 255, 192);
+    padding-inline-start: 20px;
+   
+}
