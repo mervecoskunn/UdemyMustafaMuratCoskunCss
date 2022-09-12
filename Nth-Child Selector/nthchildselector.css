@@ -1,0 +1,39 @@
+p{
+    font-size: 1.5em;
+}
+
+/* p:nth-child(1){
+    color: red;
+}
+p:first-child{
+    background: blue;
+}
+p:nth-child(2){
+    color: blueviolet;
+    background: yellowgreen;
+}
+p:nth-child(3){
+    color: red;
+}
+p:last-child{
+    background: blue;
+} */
+ul{
+    font-size: 1.5 em;
+    list-style-type:none;
+}  
+ul li:nth-child(2n){
+    color: red;
+
+
+}
+ul li:nth-child(2n+1){
+    color: blue;
+
+
+}
+ul li:nth-child(n+4){
+    background: black;
+
+
+}
