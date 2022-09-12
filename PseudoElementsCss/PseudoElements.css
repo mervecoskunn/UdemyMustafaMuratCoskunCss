@@ -1,0 +1,24 @@
+.para1{
+    font-size: 1.5em;
+    letter-spacing: 2px;
+    line-height: 1.5em;
+}
+/* .para1::first-line{
+    color: red;
+}
+.para1::first-letter{
+   font-size: 50px;
+   color: blue;
+} */
+.para1::after{
+    /* url adresi de yazabilirsin */ 
+    content: url(https://www.gercekbilim.com/wp-content/uploads/2019/06/instagram.jpg);
+    /* content: "End of the paragrafh";  */
+   font-size: 50px;
+   color: brown;
+ }
+ .para1::before{
+    content: "Before Paragrafh";
+    font-size: 50px;
+    color: brown;
+  }
