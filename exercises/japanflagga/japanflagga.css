@@ -1,0 +1,27 @@
+.background{
+    margin: 0;
+    background-color: white;
+    overflow: hidden;
+   
+
+}
+.container{
+    width: 450px;
+    height: 250px;
+    background-color: white;
+    margin:20%;
+    box-shadow: 0 0  1rem #aaa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    
+
+}
+.circle{
+    width: 10vw;
+    height:10vw;
+    background-color: red;
+    border-radius: 50%;
+    overflow: hidden;
+}
