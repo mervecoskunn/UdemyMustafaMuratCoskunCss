@@ -1,0 +1,53 @@
+body{
+    background-color: white;
+    overflow: hidden;
+    font: 18px Verdana, sans-serif;
+}
+.menu{
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+
+}
+.menu ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+   
+}
+.menu ul li {
+    flex-grow: 1;
+    height: 100%;
+
+}
+.menu ul li a{
+    text-decoration: none;
+    color: black;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+
+}
+.menu ul li a:hover {
+   background-color: lightgray;
+   color: white;
+
+}
+.menu ul li a:active{
+   color: purple;
+   background-color: cadetblue;
+
+}
+    
+    
+    
+    
+
+    
+    
+    
